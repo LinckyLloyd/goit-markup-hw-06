@@ -775,6 +775,20 @@ img {
     margin-bottom: 16px;
 }
 
+.f-modal{
+    margin-bottom: 8px;
+
+}
+
+.l-modal{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--light-slate);
+    display: block;
+    margin-bottom: 4px;
+}
+
 /* hw 6 */
 /* Footer form */
 
