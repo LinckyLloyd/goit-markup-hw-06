@@ -801,9 +801,8 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-modal:focus .form-svg,
-.input-modal:hover .form-svg {
-  fill: var(--iris);
+.input-modal:focus{
+    border-color: #4D5AE5;
 }
 
 .form-svg{
@@ -816,6 +815,11 @@ img {
 
 .form-svg:focus{
     fill: #4D5AE5;
+}
+
+.input-modal:focus+.form-svg,
+.input-modal:hover+.form-svg {
+  fill: var(--iris);
 }
 
 /* hw 6 */
