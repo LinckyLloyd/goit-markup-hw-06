@@ -847,6 +847,36 @@ img {
     border-color: #4D5AE5;
 }
 
+.checkbox{
+    margin-bottom: 24px;
+
+}
+
+.label-terms{
+    display: block;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--light-slate);
+}
+
+.span-terms{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.input-checkbox:checked+.input-checkbox {
+    background-color:var(--ocean);
+    border: none;
+    fill: var(--cloud);
+  }
 /* hw 6 */
 /* Footer form */
 
