@@ -884,11 +884,11 @@ img {
 
   .send-button{
     display: block;
-    min-width: 1369px;
+    min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    /* font-weight: 500; */
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
