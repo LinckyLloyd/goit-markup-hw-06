@@ -882,7 +882,7 @@ img {
     color: var(---iris);
   }
 
-  .send-button{
+  .form-button{
     display: block;
     min-width: 169px;
     height: 56px;
