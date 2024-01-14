@@ -818,8 +818,7 @@ img {
     fill: #4D5AE5;
 }
 
-.input-modal:focus+ .form-svg {
-/* .input-modal:hover+ .form-svg { */
+.input-modal:focus + .form-svg, .input-modal:hover + .form-svg {
   fill: var(--iris);
 }
 
@@ -880,7 +879,7 @@ img {
   }
 
   .privpol{
-    color: var(---iris);
+    color: var(--iris);
   }
 
   .form-button{
