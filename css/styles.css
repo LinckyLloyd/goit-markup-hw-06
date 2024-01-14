@@ -237,7 +237,7 @@ img {
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    width calc((100% - 3 * 16px) / 3);
+    width: calc((100% - 3 * 16px) / 3);
 }
 
 /* Section 4 */
@@ -873,7 +873,7 @@ img {
     fill: transparent;
 }
 
-.input-checkbox:checked+.span-terms {
+.input-checkbox:checked + .label-terms > .span-terms {
     background-color:var(--ocean);
     border: none;
     fill: var(--cloud);
